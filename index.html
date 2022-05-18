@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="nav">
+        <div class="menu">
+          <i class="fa-solid fa-bars fa-4x"></i>
+        </div>
+        <div class="logo">
+          <h1 class="logoText">wave</h1>
+        </div>
+      </div>
+      <!-- Player area -->
+      <div class="playerWrapper">
+        <div class="details">
+          <div class="songNameArea">
+            <h1 class="songName">Rasputin</h1>
+          </div>
+          <div class="artistNameArea">
+            <h1 class="artistName">Unknown</h1>
+          </div>
+        </div>
+        <div class="banner">
+          <img src="images/banner.jpg" class="bannerImage" alt="songBanner" />
+        </div>
+        <div class="duration">
+          <input type="range" name="songDuration" id="songDuration" />
+        </div>
+        <div class="control">
+          <i class="fa-solid fa-backward fa-4x"></i>
+          <i class="fa-solid fa-play fa-5x"></i>
+          <i class="fa-solid fa-forward fa-4x"></i>
+        </div>
+      </div>
+      <!-- Bottom Buttons Area -->
+      <div class="buttonsWrapper">
+        <div class="trendingArea">
+          <button id="trending" class="bottombtn">Trending</button>
+        </div>
+        <div class="recentArea">
+          <button id="Recent" class="bottombtn">Recent</button>
+        </div>
+        <div class="artistArea">
+          <button id="artist" class="bottombtn">Artist</button>
+        </div>
+        <div class="exploreArea">
+          <button id="explore" class="bottombtn">Explore</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/7e5c7ed7c4.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
