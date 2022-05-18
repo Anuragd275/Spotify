@@ -1,0 +1,88 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #251D3A;
+}
+
+.nav{
+    background-color: #15133C;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-solid{
+    color: #fff;
+}
+
+.logoText{
+    color: #fff;
+    font-family: Poppins;
+    font-size: 4rem;
+}
+
+.playerWrapper{
+    padding: 2rem;
+    background-color: #16003B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.details{
+    color:#fff;
+    font-family: poppins;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: -15rem;
+}
+
+.songName{
+    font-size: 5rem;
+}
+
+.bannerImage{
+    padding: 1rem;
+    border-radius: 25px;
+}
+
+#songDuration{
+    margin-top: 4rem;
+    width: 40rem;
+}
+
+.fa-backward, .fa-play, .fa-forward{
+    padding: 2rem;
+}
+
+.control{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.buttonsWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottombtn{
+    height: 8rem;
+    width: 40rem;
+    font-size: 3.5rem;
+    margin: 1rem;
+    color: #fff;
+    background-color: #15133C;
+    border: none;
+    font-family: Poppins;
+}
